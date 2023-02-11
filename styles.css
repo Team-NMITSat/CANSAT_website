@@ -11,20 +11,19 @@ html{
 }
 
 .hero-bg{
-    height: 70vh;
-    width: 102vw;
-    /* background-color: rgb(122, 232, 135); */
+    height: 100vh;
+    width: 100vw;
     background-image: url(./Image/hero_img.webp);
     background-size: cover;
     position: absolute;
     background-attachment: fixed;
     background-position: center;
     animation: slide infinite 7s linear ;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .nav-hero{
-    height: 70vh;
+    height: 100vh;
 }
 
 @keyframes slide {
@@ -63,7 +62,7 @@ html{
 .nav-hero nav ul{
     display: flex;
     list-style: none;
-    margin-left: 8%;
+    margin-left: 6%;
 }
 
 .nav-hero nav ul li{
@@ -371,7 +370,7 @@ html{
 .Team-members{
     width: 100%;
     height: fit-content;
-    background-color: rgba(106, 230, 151, 0.233);
+    background-color: rgba(17, 18, 17, 0.947);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
