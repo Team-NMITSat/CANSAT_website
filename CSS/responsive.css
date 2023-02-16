@@ -41,7 +41,6 @@
     .welcome{
         width: 50vw;
         height: 40vh;
-        /* display: flex; */
         padding: 30px;
         background-color: rgba(111, 120, 120, 0.611);
         border-radius: 30px;
@@ -201,8 +200,7 @@
     }
 
     .welcome{
-        height: 70vh;
+        height: 20vh;
     }
-
   }
 
