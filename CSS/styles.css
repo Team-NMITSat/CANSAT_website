@@ -9,6 +9,7 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-size: 75%;
+    height: 80%;
 }
 
 .hero-bg{
