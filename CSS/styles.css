@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 html{
@@ -68,12 +73,13 @@ html{
 
 .logo{
     display: flex;
+    align-items: center;
 }
 
 .logo-div{
     position: fixed;
-    right: 15px;
-    top: 5px;
+    right: 25px;
+    top: 10px;
 }
 
 .logo p{
@@ -108,7 +114,7 @@ html{
 }
 
 .welcome{
-    width: 35%;
+    width: 50%;
     height: fit-content;
     /* display: flex; */
     padding: 30px;
@@ -172,10 +178,10 @@ html{
 }
 
 .about-para p{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    width: 70%;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
+    width: 50%;
+    font-size: 1.4rem;
 }
 
 .about-content{
@@ -196,14 +202,14 @@ html{
 
 .about-left-content{
     width: 50%;
-    margin: 50px 100px 0px 0px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    margin: 60px 100px 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
 }
 
 .about-right-images img{
     width: 400px;
-    height: 600px;
+    height: 400px;
     margin-top: 20px;
     border-radius: 10px;
     border: 1px solid black;
@@ -282,8 +288,8 @@ html{
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
     margin: 0px 100px 50px 0px;
 }
 
@@ -305,6 +311,7 @@ html{
 .departments{
     display: flex;
     justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -331,7 +338,6 @@ html{
 }
 
 .department-content{
-    /* text-align: center; */
     width: 50%;
     padding: 50px 100px 0px 0px;
     margin: 0px 100px 0px 0px;
@@ -340,7 +346,7 @@ html{
 }
 
 .department-content p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .sec-left{
@@ -359,17 +365,18 @@ html{
 }
 
 .members-details{
-    height: 400px;
+    height: 500px;
     width: 400px;
     background-color: rgb(255, 255, 255);
     margin: 10px;
     /* border: 2px solid black; */
     border-radius: 30px;
+    overflow: hidden;
 }
 
 .members-img{
     width: 100%;
-    height: 79%;
+    height: 75%;
     overflow: hidden;
 }
 
@@ -377,6 +384,8 @@ html{
     font-size: 1.3rem;
     font-weight: 400;
     text-align: center;
+    height: 12%;
+    margin-top: 5px;
 }
 
 
@@ -397,15 +406,17 @@ html{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 15%;
+    height: 13%;
     background-color: rgba(160, 197, 230, 0.544);
     border-radius: 0px 0px 30px 30px;
+    padding-top: 3px;
 }
 
 .members-links img:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 10px 10px rgba(115, 113, 113, 0.472);
+    box-shadow: 1px 1px 6px 6px rgba(115, 113, 113, 0.472);
     transform: scale(1.08);
+    border-radius: 50%;
 }
 
 .club-head{
@@ -462,8 +473,6 @@ html{
     padding: 20px;
     background-color: rgba(207, 206, 205, 0.374);
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 .contact-main form{
@@ -472,11 +481,16 @@ html{
     justify-content: center;
 }
 form{
-    padding: 0px 80px;
+    padding: 20px 200px;
+    background-color: rgba(131, 134, 136, 0.43);
+    margin: 5px 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px 3px gray;
+    width: 50px;
 }
 
 form label{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 form input, textarea{
@@ -484,6 +498,7 @@ form input, textarea{
     font-size: 1.2rem;
     margin: 8px 0px;
 }
+
 
 .btn{
     display: flex;
@@ -508,34 +523,37 @@ button:active{
     box-shadow: 2px 2px 10px #e5ec22;
 }
 
-.contact-left-sec{
-    width: 100%;
-    background-color: rgba(209, 220, 217, 0.71);
-    border-radius: 30px;
-    
-}
-
 .footer-top{
     text-align: center;
     margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
 }
 
 .address{
     padding: 50px 200px 0px 200px;
 }
 
+.address-location{
+    width: 50%;
+}
+
 .location p{
-    width: 40%;
+    width: 80%;
     display: flex;
     margin: 5px 0px 20px 0px;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .address a{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-style: none;
     text-decoration: none;
     color: black;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .address a:hover{
@@ -564,12 +582,14 @@ button:active{
 }
 
 .cansat-links{
-    margin-top: 25vh;
+    position: relative;
+    bottom: 0px;
 }
 
 .cansat-links h2{
-    margin: 20px;
-
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
 }
 
  .link-logos:hover{
@@ -585,6 +605,16 @@ button:active{
     align-items: center;
     justify-content: center;
     font-size: 1.1em;
+}
+
+.logo-footer{
+    position: relative;
+    top: 200px;
+    right: 70px;
+    height: fit-content;
+    box-shadow: 2px 2px 4px 4px rgb(197, 168, 49);
+    padding: 7px;
+
 }
 
 .burger{
