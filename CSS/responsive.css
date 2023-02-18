@@ -44,7 +44,7 @@
 
     .welcome{
         width: 50vw;
-        height: 40vh;
+        height: fit-content;
         padding: 30px;
         background-color: rgba(111, 120, 120, 0.611);
         border-radius: 30px;
