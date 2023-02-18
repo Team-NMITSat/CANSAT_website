@@ -70,10 +70,8 @@ html{
 
 .logo-div{
     position: fixed;
-    right: 2px;
+    right: 15px;
     top: 5px;
-    /* margin-left: auto; */
-    /* margin-right: 20px; */
 }
 
 .logo p{
@@ -102,18 +100,21 @@ html{
 .hero-content{
     position: relative;
     top: 30%;
-    left: 40px;
+    left: 0;
     width: fit-content;
+    height: fit-content;
 }
 
 .welcome{
     width: 35%;
-    height: 300px;
+    height: fit-content;
     /* display: flex; */
     padding: 30px;
     background-color: rgba(111, 120, 120, 0.611);
     border-radius: 30px;
     box-shadow: 1px 1px 10px 10px rgb(86, 83, 83);
+    position: relative;
+    left: 40px;
 }
 
 .role{

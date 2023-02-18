@@ -1,13 +1,13 @@
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1240px){
 
     body{
         overflow-x: hidden;
+        overflow-y: auto;
         
     }
 
     html{
-        font-size: 85%;
-        overflow-y: auto;
+        font-size: 75%;
     }
 
     .hero-content{
