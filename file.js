@@ -1,7 +1,6 @@
 var typeData = new Typed(".role", {
     strings: [
-      "Hii!!     ",
-      "Welcome to NMITSAT Website!",
+      "Welcome to Team NMITSat",
     ],
     loop: true,
     typeSpeed: 70,
