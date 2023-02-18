@@ -1,8 +1,13 @@
-@media only screen and (max-width: 1240px){
-    html{
-        font-size: 70%;
-        overflow-y: auto;
+@media only screen and (max-width: 1300px){
+
+    body{
         overflow-x: hidden;
+        
+    }
+
+    html{
+        font-size: 85%;
+        overflow-y: auto;
     }
 
     .hero-content{
@@ -24,7 +29,7 @@
     
     .navbar ul{
         flex-direction: column;
-        background-color: rgba(129, 188, 180, 0.624);
+        background-color: rgba(15, 29, 27, 0.624);
         padding: 10px;
         margin: 40px 0px;
         transition: all 0.5s ease-out;
@@ -36,7 +41,6 @@
     .navbar ul li{
         margin: 7px;
     }
-
 
     .welcome{
         width: 50vw;
@@ -52,7 +56,6 @@
     }
     .burger{
         display: block;
-
     }
 
     .nav-hero nav{
@@ -112,7 +115,7 @@
 
 
     .contact-section{
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         margin: 0px;
         padding: 0px;
@@ -188,7 +191,11 @@
     
     .contact{
         align-items: center;
-        
+    }
+    .contact-main form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 

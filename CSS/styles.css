@@ -26,13 +26,14 @@ html{
 
 .nav-hero nav{
     height: 80px;
-    width: 57%;
+    width: fit-content;
     background-color: rgba(52, 52, 55, 0.635);
     display: flex;
     align-items: center;
     position: fixed;   
     border-bottom-right-radius: 10% 70%; 
     z-index: 1;
+    padding-right: 50px;
 }
 
 .nav-hero nav ul{
@@ -65,15 +66,14 @@ html{
 
 .logo{
     display: flex;
-    
 }
 
 .logo-div{
     position: fixed;
     right: 2px;
     top: 5px;
-    margin-left: auto;
-    margin-right: 20px;
+    /* margin-left: auto; */
+    /* margin-right: 20px; */
 }
 
 .logo p{
@@ -103,11 +103,12 @@ html{
     position: relative;
     top: 30%;
     left: 40px;
+    width: fit-content;
 }
 
 .welcome{
     width: 35%;
-    height: 200px;
+    height: 300px;
     /* display: flex; */
     padding: 30px;
     background-color: rgba(111, 120, 120, 0.611);
@@ -160,7 +161,7 @@ html{
 }
 
 .about-para{
-    height: 300px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -462,8 +463,10 @@ html{
     justify-content: center; */
 }
 
-.contact-main{
-    width: fit-content;
+.contact-main form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 form{
     padding: 0px 80px;
@@ -584,8 +587,8 @@ button:active{
 .burger{
     display: none;
     position: absolute;
-    left: 5%;
-    top: 8px;
+    left: 15%;
+    top: 10px;
 }
 
 .line{
