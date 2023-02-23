@@ -13,8 +13,8 @@ body{
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
-    font-size: 75%;
     height: 80%;
+    font-size:80%;
 }
 
 .hero-bg{
@@ -56,6 +56,11 @@ html{
     letter-spacing: 1px;
 }
 
+.nav-hero nav ul li:hover{
+    transition: 0.3s ease;
+    scale: 1.05;
+}
+
 .nav-hero nav ul li a{
     text-decoration: inherit;
     color: white;
@@ -78,12 +83,18 @@ html{
 
 .logo-div{
     position: fixed;
-    right: 25px;
-    top: 10px;
+    right: 20px;
+    /* top: 5px; */
+    background-color: #3b3b3693;
+    padding: 8px;
+    border-radius: 10px 30px 10px 30px;
+    box-shadow: 2px 2px 4px 0px;
+    transition: 0.8s ease;
+
 }
 
 .logo p{
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
     font-size: 1.8rem;
     font-family: 'Itim', cursive;
     font-weight: bold;
@@ -93,16 +104,21 @@ html{
 
 .logo p:hover{
     cursor: pointer;
+    scale: 1.05;
+    transition: 1s ease;
 }
 
 .logo img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+
 }
 
 .logo img:hover{
     cursor: pointer;
+    scale: 1.05;
+    transition: 1s ease;
 }
 
 .hero-content{
