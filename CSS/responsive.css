@@ -3,7 +3,6 @@
     body{
         overflow-x: hidden;
         overflow-y: auto;
-        
     }
 
     html{
@@ -67,8 +66,9 @@
     }
 
     .logo-div{
-        position: absolute;
-        margin: auto;
+        position: fixed;
+        /* margin: auto; */
+        margin: 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -78,6 +78,12 @@
         flex-direction: column;
         margin: 0px;
         padding: 10px;
+    }
+
+    .about-para{
+        width: 100%;
+        padding: 20px 0px;
+        margin: 0px;
     }
 
     .about-right-images{
@@ -119,6 +125,10 @@
         justify-content: center;
         margin: 0px;
         padding: 0px;
+    }
+
+    .logo-footer{
+        display: none;
     }
 
     .departments{
@@ -166,7 +176,9 @@
     }
 
     .address{
-        padding: 0px;
+        padding:0px;
+        width: 100%;
+        margin: 10px;
     }
 
     .link-logos{
@@ -186,12 +198,15 @@
 
     form{
         width: 100%;
-        padding: 20px;
+        margin: 10px 0px;
+        padding: 10px 0px;
     }
     
     .contact{
         align-items: center;
     }
+
+
     .contact-main form{
         display: flex;
         align-items: center;
