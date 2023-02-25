@@ -226,3 +226,15 @@
     }
   }
 
+  @media only screen and (max-width: 800px){
+
+    .logo p{
+        display: none;
+    }
+
+    .logo-div{
+        border-radius: 50%;
+        
+    }
+  }
+
