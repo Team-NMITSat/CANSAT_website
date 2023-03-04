@@ -515,6 +515,10 @@ form input, textarea{
     margin: 8px 0px;
 }
 
+.required{
+    color:red;
+}
+
 
 .btn{
     display: flex;
