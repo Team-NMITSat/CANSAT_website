@@ -505,9 +505,7 @@
         </div>
       </div>
     </div>
-
   </div>
-
   <div id="contact" class="titles">
     <h3>Contact Us</h3>
   </div>
@@ -554,18 +552,18 @@
         <form action="https://submit-form.com/lG1yvhcY">
           <div data-aos="fade-left" data-aos-offset="200" data-aos-mirror="true" data-aos-once="false" data-aos-delay="50"
             data-aos-duration="1500">
-            <label for="fname">First Name:</label>
-            <input type="text" placeholder="First name" name="First Name" /><br />
-            <label for="lname">Last Name :</label>
+            <label for="fname">First Name:<span class="required">*</span></label>
+            <input type="text" placeholder="First name" name="First Name" required=""/><br />
+            <label for="lname">Last Name : </label><br>
             <input type="text" placeholder="Last name" name="Last Name" /><br />
-            <label for="number">Mobile No: </label><br />
-            <input type="text" placeholder="Mobile number" name="Contact No" /><br />
-            <label for="mail">Email:</label><br />
-            <input type="text" placeholder="Email-id" name="Email id" /><br />
+            <label for="number">Mobile No:<span class="required">*</span> </label><br />
+            <input type="text" placeholder="Mobile number" name="Contact No" required=""/><br />
+            <label for="mail">Email:<span class="required">*</span></label><br />
+            <input type="text" placeholder="Email-id" name="Email id"  required=""/><br />
             <label for="subject">Subject:</label><br />
             <input type="text" placeholder="Subject" /><br />
-            <label for="detail">Message:</label><br />
-            <textarea name="Description" cols="30" rows="10" placeholder="Message"></textarea>
+            <label for="detail">Message:<span class="required">*</span></label><br />
+            <textarea name="Description" cols="30" rows="10" placeholder="Message" required=""></textarea>
             <div class="btn">
               <button type="submit">Send Message</button>
             </div>
